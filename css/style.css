@@ -1,0 +1,307 @@
+body {
+    font-family: 'Roboto';
+    width: 100%;
+    border-color: red;
+}
+
+
+
+
+.fundo img {
+    position: absolute;
+    width: 1280px;
+   
+    opacity: 0;
+}
+
+.main {
+    width: 100%;
+}
+
+.bar-top {
+    position: fixed;
+    background-color: #f2eff5;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 40px;
+    box-shadow: 10px 0px #000;
+    text-align: center;
+    width: 100%;
+    z-index: 99;
+}
+
+.bar-top .logo {
+    width: 120px;
+    margin: 3px 10px;
+    position: absolute;
+}
+
+.bar-top .logo img {
+    width: 100%;
+    height: auto;
+}
+
+.bar-top .nav {
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.bar-top .nav .item {
+    cursor: pointer;
+    display: inline-block;
+    height: 35px;
+    padding: 0 15px;
+    line-height: 35px;
+    background-color: #fff;
+    color: #000;
+}
+
+.bar-top .nav .item.actived {
+    background-color: #39e06b;
+    color: #fff;
+}
+
+.bar-top .nav .item:hover {
+    background-color: #a2d2ff;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.carousel .sl {
+    width: 100%;
+    margin-top: -70px;
+    background-color: red;
+}
+
+.carousel .sl img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 430px;
+}
+
+.sl-tooltip-bottom {
+    position: relative;
+    width: 720px;
+    margin: 0 auto;
+    white-space: nowrap;
+    letter-spacing: 0px;
+}
+
+.carousel .sl-title {
+    text-shadow:  0.1em 0 0.1em #f6fbfa;
+    position: relative;
+    padding-top: 50px;
+    font-size: 70px;
+    margin: 0;
+    margin-top: 100px;
+    color: #c21b1b;
+}
+
+.carousel .sl-desc {
+    text-shadow: 0.1em 0.1em #333;
+    font-size: 20px;
+    font-weight: bold;
+    width: 350px;
+    text-align: left;
+    color: #bba3ed;
+}
+
+.sl-tooltip-bottom .sl-tooltip-item {
+    position: relative;
+    top: 0;
+    margin-top: 60px;
+    letter-spacing: 0px;
+    float: left;
+    width: 210px;
+    height: 130px;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.sl-tooltip-item p {
+    color: #fff;
+    font-size: 15px;
+    margin: 8px 0;
+}
+
+.sl-tooltip-item span {
+    font-size: 12px;
+    color: #fff;
+    display: block;
+}
+
+.btn-2 {
+    color: #fff;
+    display: inline-block;
+    border: 2px solid #fff;
+    line-height: 25px;
+    padding: 0 5px;
+    font-size: 11px;
+    vertical-align: baseline;
+    cursor: pointer;
+}
+
+.btn-sl-tooltip {
+    margin-top: 10px;
+}
+
+
+/* =========================================================================== */
+
+.page-content {
+    width: 720px;
+    margin: 0 auto;
+}
+
+.page-content .page-left {
+    float: left;
+}
+
+.page-content .page-right {
+    float: right;
+}
+
+.post-header {
+    margin-top: 10px;
+}
+
+.posts-title {
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.posts-title::before {
+    content: '';
+    display: block;
+    position: relative;
+    top: 30px;
+    height: 3px;
+    width: 35px;
+    background-color: #61e881;
+}
+
+.post-date {
+    font-size: 12px;
+    background-color: #294a98;
+    line-height: 26px;
+    height: 26px;
+    padding: 0 8px;
+    display: inline-block;
+    color: #fff;
+}
+
+.post-visit {
+    color: #fff;
+    background-color: #34a7df;
+    line-height: 26px;
+    height: 26px;
+    font-size: 12px;
+    padding: 0 8px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: -3px;
+}
+
+.posts-container {
+    margin-top: 12px;
+    width: 480px;
+}
+
+.post {
+    width: 230px;
+    margin-right: 10px;
+    height: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+}
+
+.post img {
+    width: 100%;
+    height: 140px;
+}
+
+.post .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.post .post-info {
+    margin-top: 10px;
+}
+
+
+/* ==================================  */
+
+.page-rigth {
+    float: right;
+    width: 220px;
+}
+
+.deparments-title {
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.deparments-title::before {
+    content: '';
+    display: block;
+    position: relative;
+    top: 30px;
+    height: 3px;
+    width: 35px;
+    background-color: #7ac3e4;
+}
+
+.deparments-container {
+    margin-top: 30px;
+}
+
+.deparments-item {
+    /* background-color: red; */
+}
+
+.deparments-item img {
+    width: 100%;
+}
+
+.deparments-item .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.deparments-item .title::before {
+    content: '';
+    display: block;
+    position: relative;
+    top: 30px;
+    height: 3px;
+    width: 35px;
+    background-color: #7ac3e4;
+}
+
+.teste {
+    display: flex;
+} 
+.rodape {
+    background-color: #34df4b;
+    text-align: center;
+}
+
+.finalcontrol img {
+    width: 100%;
+    
+}
+   
